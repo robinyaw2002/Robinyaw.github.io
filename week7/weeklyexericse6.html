@@ -12,24 +12,36 @@
         <fieldset>
             <legend>Personal information:</legend>
             Name<br>
-            <input type="text" name="first" value="first">
-            <input type="text" name="last" value="last"><br>
+            <input class="table" type="text" name="first" value="first">
+            <input class="table" type="text" name="last" value="last"><br>
 
-            <div id="2">
+            <div id="about">
                 <p>Email</p>
+                <input class="table" type="text" name="email">
+
                 <p>Phone</p>
+                <input class="table" type="tel" name="phone" value="### ### ####"><br>
             </div>
 
-            <input type="text" name="email">
-            <input type="tel" name="phone" value="### ### ####"><br>
+
+
+            <div id="gender">
+                <input class="table" type="radio" name="gender" value="male"> Male<br>
+                <input class="table" type="radio" name="gender" value="female"> Female<br>
+            </div>
+
 
             Former address<br>
-            <input type="text" name="street" value="street address">
-            <input type="text" name="street" value="street address line 2"><br>
-            <input type="text" name="city" value="city">
-            <input type="text" name="region" value="region"><br>
-            <input type="text" name="postal" value="postal/zip code">
-            <input type="text" name="country" value="Romania"><br>
+            <input class="table" type="text" name="street" value="street address">
+            <input class="table" type="text" name="street" value="street address line 2"><br>
+            <input class="table" type="text" name="city" value="city">
+            <input class="table" type="text" name="region" value="region"><br>
+            <input class="table" type="text" name="postal" value="postal/zip code">
+            <input class="table" type="text" name="country" value="Romania"><br>
+
+            <select name="country" id="country" class="country">
+                <option placeholder="Japan">Japan</option>
+            </select>
 
 
 
@@ -38,9 +50,10 @@
 
 
 
+            <div id="button">
+                <input class="sbutton" type="submit" value="send">
+            </div>
 
-
-            <input type="submit" value="Submit">
         </fieldset>
     </form>
 
