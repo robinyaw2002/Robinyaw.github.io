@@ -1,0 +1,58 @@
+ body {
+     display: flex;
+     justify-content: center;
+ }
+
+ #form1 {
+     background-color: rgb(135, 239, 206);
+     width: 30%;
+     margin-left: 25px;
+     padding-top: 10px;
+     color: rgb(5, 91, 5);
+ }
+
+ .name {
+     background-color: white;
+     width: 180px;
+     height: 30px;
+     color: #3D7462;
+     margin: 5px;
+     border: 1px solid #D9F9EF;
+ }
+
+ #about {
+     display: flex;
+ }
+
+ .table {
+     background-color: #E2FBF2;
+     color: #3D7462;
+ }
+
+
+
+ #gender {
+     background-color: rgb(6, 182, 97);
+     color: rgb(224, 250, 237);
+ }
+
+ .country {
+     width: 188px;
+     height: 30px;
+     margin: 5px;
+     color: #396c5b;
+     background-color: white;
+
+ }
+
+ #button {
+     display: flex;
+     justify-content: center;
+ }
+
+ .sbutton {
+     color: white;
+     padding: 15px 25px 15px 25px;
+     background-color: rgb(5, 91, 5);
+     border-radius: 40px;
+ }
