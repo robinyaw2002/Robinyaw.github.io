@@ -1,0 +1,102 @@
+.item1 {
+    grid-area: logo;
+    height: 55px;
+}
+
+.item2 {
+    grid-area: menu;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item2 a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.item2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.item3 {
+    grid-area: imageslideshow;
+    height: 400px;
+}
+
+.item4 {
+    grid-area: feat1;
+}
+
+.item5 {
+    grid-area: feat2;
+}
+
+.item6 {
+    grid-area: feat3;
+}
+
+.item7 {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.item7 a {
+    padding: 40px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.item7 a:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+.item8 {
+    grid-area: textcontent;
+}
+
+.item9 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'logo logo logo menu menu menu'
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow  '
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow  '
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow  '
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow  '
+        'feat1 feat1 feat2 feat2 feat3 feat3'
+        'feat1 feat1 feat2 feat2 feat3 feat3'
+        'feat1 feat1 feat2 feat2 feat3 feat3'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'sidebar sidebar sidebar textcontent textcontent textcontent'
+        'footer footer footer footer footer footer'
+        'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: gold;
+    padding: 15px;
+}
+
+.grid-container>div {
+    background-color: silver;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 30px;
+}

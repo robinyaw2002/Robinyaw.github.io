@@ -1,0 +1,81 @@
+#container {
+    background-color: black;
+    max-width: 1570px;
+    margin: auto;
+}
+
+#header {
+    padding: 40px;
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    color: silver
+}
+
+.about {
+    text-align: center;
+    color: gold;
+}
+
+.link {
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+#homework {
+    justify-content: space-around;
+    display: flex;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: silver;
+}
+
+.site {
+    display: flex;
+}
+
+.site a {
+    color: silver;
+    padding: 16px 20px;
+}
+
+.site a:hover {
+    color: greenyellow;
+    background-color: silver;
+}
+
+#content {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+#homework {
+    background-color: black;
+}
+
+#homeworks {
+    padding: 80px;
+    position: relative;
+    color: silver;
+    background-color: black;
+}
+
+
+#pic {
+    display: flex;
+    width: 540px;
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+    color: silver;
+    background-color: black;
+}

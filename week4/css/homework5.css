@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h4,
+p {
+    color: white;
+}
+
+#title {
+    padding-left: 50px;
+
+}
+
+.container div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    flex: 2;
+
+}
+
+#middle {
+    display: flex;
+    padding-top: 80px;
+}
+
+.div {
+    font-size: 20px;
+}
+
+.div>div {
+    display: flex;
+}
+
+p {
+    margin-top: 0px;
+}
+
+img1,
+img2,
+img3 {
+    width: 280px;
+    height: 180px;
+}
+
+p {
+    border-bottom: 2px solid white;
+    height: 150px;
+}

@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+}
+
+.container div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    flex: 1;
+
+}
+
+#div1 {
+    border: 5px solid black;
+    margin-left: -15px;
+    margin-right: 150px;
+    margin-bottom: 250px;
+    margin-top: 250px;
+    padding: 10px;
+
+
+}
+
+#div2 {
+    background-image: url("../image/furniture.jpg");
+    background-size: cover;
+    margin-right: 50px;
+    margin-top: -12px;
+
+}
+
+#head1 {
+    font-size: 80px;
+    text-align: center;
+
+}
+
+#par1 {
+    font-size: 28px;
+    text-align: center;
+}

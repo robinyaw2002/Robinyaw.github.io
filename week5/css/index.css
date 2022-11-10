@@ -1,0 +1,139 @@
+#container {
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
+
+
+}
+
+#par1 {
+    margin-top: 5px;
+    margin-bottom: 1px;
+
+}
+
+/*navbar container*/
+#topnav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*navbar links*/
+#topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/*links- change color on hover*/
+#topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+#navlink {
+    display: flex;
+    align-items: center;
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Column */
+.column {
+    width: 33.33%;
+}
+
+#content {
+    width: 25%;
+}
+
+
+/* Responsive layout - makes the three */
+@media screen and (max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #side {
+        width: 50%;
+    }
+
+    #side2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: wrap;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    #content {
+        width: 100%;
+    }
+}
+
+.row2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 260px) {
+    .row2 {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 50%;
+    }
+}
+
+.row3 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.columns {
+    width: 20%;
+    background-color: #F1F1F1;
+    margin-top: 10px;
+}

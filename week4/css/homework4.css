@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+
+}
+
+h1,
+h2,
+h4,
+p {
+    color: white;
+}
+
+.container div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 81%;
+}
+
+#div2,
+#img {
+    padding: 0px 100px;
+    height: 100%;
+}
+
+#img {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+#div2 {
+    border-left: 3px solid white;
+    align-items: center;
+    display: flex;
+}
+
+#middle {
+    text-align: center;
+}
+
+h1,
+p {
+    margin-bottom: 50px;
+}

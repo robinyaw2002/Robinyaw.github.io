@@ -1,0 +1,120 @@
+#container {
+    background-color: grey;
+    margin: auto;
+    max-width: 1990px;
+}
+
+#header {
+    display: flex;
+}
+
+#logo {
+    width: 80px;
+    margin: 8px;
+    padding: 50px;
+}
+
+#phone {
+    width: 30%;
+    color: black;
+    background-color: yellow;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    border: 5px solid blueviolet;
+}
+
+#menu {
+    color: white;
+    background-color: black;
+    margin: 8px;
+    margin-bottom: 50px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu a {
+    padding: 14px 20px;
+    font-size: 35;
+}
+
+#menu a:hover {
+    color: gray;
+    background-color: goldenrod;
+}
+
+.slideshow {
+    margin: 8px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+
+#feat {
+    display: flex;
+}
+
+.content1 {
+    width: 280px;
+    margin: 8px;
+    padding: 100px 50px;
+    text-align: center;
+    background-color: wheat;
+    position: relative;
+    border: 7px solid gold;
+}
+
+.row2 {
+    display: flex;
+}
+
+.content {
+    width: 450px;
+    height: 300px;
+    padding: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: gold;
+    border: 7px solid black;
+}
+
+.sidebar {
+    width: 150px;
+    height: 300px;
+    padding: 200px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    text-align: center;
+    flex-direction: column;
+    background-color: aqua;
+    display: flex;
+    border: 7px solid whitesmoke;
+}
+
+.sidebar a {
+    padding: 40px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+.footer {
+    background-color: sandybrown;
+    padding: 48px;
+    text-align: center;
+    margin: 8px;
+    position: relative;
+    border: 7px solid gold;
+}

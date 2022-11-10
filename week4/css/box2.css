@@ -1,0 +1,14 @@
+#div1 {
+    border: 20px solid blue;
+    margin: 40px;
+    padding: 10px;
+    background-image: url(../image/galaxy.jpg);
+
+}
+
+#div2 {
+    border: 10px solid black;
+    margin: 30px;
+    padding: 10px;
+    background-image: url(../image/water.jpg);
+}
