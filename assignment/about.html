@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>about</title>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="image/nes.png" width="60px">
+            </div>
+
+            <div id="menu" class="topnav">
+                <div><a href="#">About</a></div>
+                <div><a href="#">Characters</a></div>
+                <div><a href="#">Levels</a></div>
+                <div><a href="#">Powerups</a></div>
+            </div>
+            <div id="hamburger" class="buttonham">
+                <a onclick="myFunction()">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="headbody">
+            <div id="headbodyleft">
+                <h1>About</h1>
+                <p>Super Mario Bros is a video game released for the
+                    family computer (FC) and nintendo entertainment
+                    system (NES). Which is the succesor to the 1983
+                    arcade game Mario Bros and first game in the title of
+                    Super Mario series. It was released in 13 September
+                    1985 in Japan, October 1985 in US and 1987 in
+                    Europe. The game was one of the greatest video
+                    games of all time, one of the best-selling games all
+                    time. This game start a multimedia franchise
+                    including a long running game series, animated
+                    television series, animated featured film and live-
+                    action feature film. This website is give overview to
+                    Super Mario Bros.
+                </p>
+            </div>
+            <div id="headbodyright">
+                <div>
+                    <img src="images/My project.png" width="200px">
+                </div>
+                <div>
+                    <img src="images/mario.png" width="380px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container2">
+        <div id="headbody2">
+            <div id="bodyleft">
+                <div>
+                    <img src="images/My project.png" width="200px">
+                </div>
+                <div>
+                    <img src="images/mario.png" width="380px">
+                </div>
+            </div>
+            <div id="bodyright">
+                <h1>Story</h1>
+                <p>One day the kingdom of the peaceful mushroom people
+                    was invaded by the Koopa, a tribe of turtles famous for
+                    their black magic. The quiet, peace-loving Mushroom
+                    People were turned into mere stones, bricks and even
+                    field horsehair plants, and the Mushroom Kingdom fell
+                    into ruin. The only one who can undo the magic spell on
+                    the Mushroom People and return them to their normal
+                    selves is the Princess Toadstool, the daughter of the
+                    Mushroom King. Unfortunately, she is presently in the
+                    hands of the great Koopa turtle king. Mario, the hero of
+                    the story hears about the Mushroom People's plight
+                    and sets out on a quest to free the Mushroom Princess
+                    from the evil Koopa and restore the fallen kingdom of
+                    the Mushroom People. You are Mario! It's up to you to
+                    save the Mushroom People from the black magic of the
+                    Koopa!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="container3">
+        <div id="footer">
+            <div id="footerleft">
+                <div>
+                    <h2>Contact
+                    </h2>
+                </div>
+                <div id="contact">
+                    <p>Phone: 016-202 3701</p>
+                    <p>Facebook: Robin Yaw </p>
+                    <p>Instagram: burning_guy_robin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            var icon = document.getElementById("icon");
+            icon.classList.toggle("fa-window-close");
+            if (x.className === "topnav") {
+                document.body.style.overflow = "hidden";
+                x.className = x.className + " responsive";
+
+            } else {
+                x.className = "topnav";
+                document.body.style.overflow = "auto"
+            }
+        }
+    </script>
+</body>
+
+</html>
