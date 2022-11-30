@@ -57,3 +57,51 @@ body {
     text-decoration: none;
     padding: 20px 20px;
 }
+
+#container2 {
+    background-color: #7e0e0e;
+    border-bottom: 2px solid #AB1602;
+}
+
+#doublebox {
+    padding-top: 50px;
+    padding-left: 60px;
+    display: flex;
+}
+
+#box1 {
+    color: #ffffff;
+    width: 423px;
+    height: 500px;
+    text-align: center;
+    background: #0e7b45;
+    border: 1px #05b15c;
+}
+
+#box2 {
+    color: #ffffff;
+    width: 423px;
+    height: 500px;
+    text-align: center;
+    background: #ae1212;
+    border: 1px #ff0606;
+}
+
+
+
+#mushroom {
+    width: 240px;
+    height: 218px;
+    align-items: center;
+
+}
+
+
+
+.btn1 {
+    background: #921111;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 20px 20px;
+}
