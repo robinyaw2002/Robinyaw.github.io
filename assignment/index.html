@@ -5,6 +5,7 @@
     <title>homepage</title>
     <link rel="stylesheet" type="text/css" href="css/assignment.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc95e96505.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,11 +15,16 @@
                 <img src="images/nes.png" width="60px">
             </div>
 
-            <div id="navlink">
-                <a href="#">About</a>
+            <div id="menu" class="topnav">
+                <a href="https://Robinyaw.github.io/assignment/about.html">About</a>
                 <a href="#">Characters</a>
                 <a href="#">Levels</a>
                 <a href="#">Powerups</a>
+            </div>
+            <div id="hamburger" class="buttonham">
+                <a onclick="myFunction()">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
             </div>
         </div>
 
@@ -34,13 +40,78 @@
     <div id="container2">
         <div id="doublebox">
             <div id="box1">
-                <img id="redmushroom" src="images/redmushroom.png">
-                <img id="greenmushroom" src="images/greenmushroom.png">
-
+                <div id="mushroom">
+                    <img src="images/redmushroom.png" width="170px">
+                </div>
+                <p>Learn all about power-ups in<br>
+                    this game<br>
+                    to make your adventure easier.</p>
+                <div class="button">
+                    <a href="#" class="btn1">Learn more</a>
+                </div>
             </div>
+
+            <div id="box2">
+                <div id="mario">
+                    <img src="images/mario.png" width="170px">
+                </div>
+                <p id="from"> From ravishing royalty to menacing<br>
+                    monsters, the Mushroom Kingdom<br>
+                    has had its share of characters.</p>
+                <div class="button">
+                    <a href="#" class="btn1">Learn more</a>
+                </div>
+            </div>
+
+
         </div>
 
+        <div id="singlebox">
+            <div id="box3">
+                <div id="goomba">
+                    <img src="images/goomba.png" width="170px">
+                </div>
+                <p id="learn">Learn all about the levels in this<br>
+                    game<br>
+                    to know how the adventure it looks<br>
+                    like.</p>
+                <div class="button">
+                    <a href="#" class="btn1">Learn more</a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div id="container3">
+        <div id="footer">
+            <div id="footerleft">
+                <div>
+                    <h2>Contact</h2>
+                </div>
+                <div id="contact">
+                    <p>Phone: 016-202 3701</p>
+                    <p>Facebook: Robin Yaw </p>
+                    <p>Instagram: burning_guy_robin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            var icon = document.getElementById("icon");
+            icon.classList.toggle("fa-window-close");
+            if (x.className === "topnav") {
+                document.body.style.overflow = "hidden";
+                x.className = x.className + " responsive";
+
+            } else {
+                x.className = "topnav";
+                document.body.style.overflow = "auto"
+            }
+        }
+    </script>
 
 
 
