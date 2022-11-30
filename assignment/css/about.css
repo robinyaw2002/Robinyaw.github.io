@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    padding-right: 75px;
+
 }
 
 #header a {
@@ -218,8 +218,22 @@ body {
         width: 100%;
     }
 
+    #headbodyleft {
+        padding-right: 100px;
+    }
+
     #headbodyright {
         display: flex;
+    }
+
+    #pic1 {
+        width: 150px;
+
+    }
+
+    #pic2 {
+        width: 150px;
+
     }
 
     #bodyright {
