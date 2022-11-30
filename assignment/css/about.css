@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#container {
+    background-color: #1BA7FF;
+}
+
+#logo {
+    padding-left: 75px;
+    padding-top: 10px;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 75px;
+}
+
+#header a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav {
+    margin-right: 75px;
+}
+
+#header a:hover {
+    background-color: #ffffff;
+    color: #0a87ce;
+}
+
+#headbody {
+    display: flex;
+    padding: 80px;
+}
+
+#headbodyleft {
+    width: 70%;
+}
+
+#headbodyleft>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#headbodyleft>p {
+    color: white;
+    font-size: 24px;
+    line-height: 1.8;
+    padding-left: 60px;
+}
+
+#headbodyright {
+    width: 55%;
+    margin-top: 20px;
+    padding-left: 200px;
+}
+
+#headbodyright>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2 {
+    background-color: #7B0E0E;
+    border-bottom: 2px solid #AB1602;
+}
+
+#headbody2 {
+    display: flex;
+
+}
+
+#bodyleft {
+    width: 60%;
+    margin-top: 40px;
+
+}
+
+#pic3 {
+    padding-right: 200px;
+}
+
+#pic4 {
+    padding-right: 150px;
+}
+
+#bodyright {
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+#bodyright>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-right: 90px;
+}
+
+#bodyright>p {
+    color: white;
+    font-size: 24px;
+    line-height: 1.8;
+
+}
+
+#bodyleft>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container3 {
+    background-color: #7B0E0E;
+}
+
+#footer {
+    display: flex;
+    padding: 50px;
+}
+
+#footerleft h2 {
+    color: white;
+    font-size: 44px;
+}
+
+#footerleft p {
+    color: white;
+    font-size: 30px;
+}
+
+#contact {
+    margin-top: 80px;
+
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+.buttonham {
+    font-size: 17px;
+    padding: 16px 5px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#hamburger {
+    display: none;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    #hamburger {
+        display: block;
+        z-index: 1;
+        color: white;
+    }
+
+    #menu {
+        display: none;
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #menu>div {
+        margin-top: 30px;
+    }
+
+    #menu.responsive {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0px;
+        height: 100%;
+        z-index: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttonham {
+        border: 1px solid #c3c3c3;
+    }
+
+    #headbody,
+    #headbody2 {
+        display: block;
+        padding: 50px;
+    }
+
+    #headbody2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #headbodyleft,
+    #headbodyright {
+        width: 100%;
+    }
+
+    #headbodyright {
+        display: flex;
+    }
+
+    #bodyright {
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    padding-left: 75px;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#header a:hover {
+    background-color: #ffffff;
+    color: #0a87ce;
+}
+
+#container {
+    background-color: #1ba7ff;
+    text-align: center;
+    height: 600px;
+}
+
+.titlescreen {
+    text-align: center;
+    padding-top: 90px;
+}
+
+#navlink {
+    padding-right: 75px;
+
+}
+
+.button {
+    padding-top: 90px;
+
+
+}
+
+.btn0 {
+    background: #0ab7ce;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 20px 20px;
+}
