@@ -1,1 +1,71 @@
-.
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #1BA7FF;
+}
+
+#logo {
+    padding-left: 75px;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+    padding-top: 10px;
+}
+
+#header a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav {
+    margin-right: 30px;
+}
+
+#header a:hover {
+    background-color: #ffffff;
+    color: #0a87ce;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+.buttonham {
+    font-size: 17px;
+    padding: 16px 5px;
+}
+
+#hamburger {
+    display: none;
+    align-items: center;
+}
+
+#headbody>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headbody>p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+#headbody {
+    padding: 80px 280px;
+}
