@@ -5,13 +5,11 @@ body {
 
 #container {
     background-color: #1BA7FF;
-    height: 1500px;
 }
 
 #logo {
     padding-left: 75px;
     padding-top: 10px;
-
 }
 
 #header {
@@ -57,8 +55,6 @@ body {
 
 .button {
     padding-top: 90px;
-
-
 }
 
 .btn0 {
