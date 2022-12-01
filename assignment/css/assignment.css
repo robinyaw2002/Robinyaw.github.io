@@ -230,7 +230,7 @@ body {
     }
 
     #doublebox {
-
+        padding: 20px 0px 20px 20px;
         flex-direction: column;
     }
 
@@ -239,6 +239,7 @@ body {
         margin: 0;
         height: 446px;
         width: 336px;
+        margin-bottom: 20px;
     }
 
     #box2 {
@@ -248,10 +249,16 @@ body {
         width: 336px;
     }
 
+    #singlebox {
+        padding-left: 20px;
+    }
+
     #box3 {
         padding: 0;
         margin: 0;
         height: 446px;
         width: 336px;
     }
+
+
 }
