@@ -10,6 +10,7 @@ body {
 
 #logo {
     padding-left: 75px;
+    padding-top: 10px;
 
 }
 
@@ -17,8 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 75px;
     padding-top: 10px;
+
 }
 
 #header a {
@@ -29,7 +30,7 @@ body {
 }
 
 .topnav {
-    margin-right: 30px;
+    margin-right: 75px;
 }
 
 #header a:hover {
@@ -53,10 +54,6 @@ body {
     padding-top: 70px;
 }
 
-#navlink {
-    padding-right: 75px;
-
-}
 
 .button {
     padding-top: 90px;
