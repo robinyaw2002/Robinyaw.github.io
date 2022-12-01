@@ -5,9 +5,60 @@
     <title>about</title>
     <link rel="stylesheet" type="text/css" href="css/characters.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc95e96505.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="images/nes.png" width="60px">
+            </div>
+
+            <div id="menu" class="topnav">
+                <div><a href="https://Robinyaw.github.io/assignment/about.html">About</a></div>
+                <div><a href="#">Characters</a></div>
+                <div><a href="#">Levels</a></div>
+                <div><a href="#">Powerups</a></div>
+            </div>
+            <div id="hamburger" class="buttonham">
+                <a onclick="myFunction()">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="headbody">
+            <h1>Characters</h1>
+            <p>Many of the characters from the Mario series
+                were introduced in this game, though two
+                of the characters went under different names
+                then what they are known as today. Princess Toadstool,
+                now known as Princess Peach (as she always was in Japan),
+                King Koopa, now known as Bowser, and the Mushroom People/Retainers,
+                now known as Toads, were all introduced in Super Mario Bros. Various
+                famous enemies were also first found in this game, such as the Goombas,
+                Koopa Troopas, Piranha Plants, Bullet Bills, Cheep-Cheep, and others. Mario
+                and Luigi, who were introduced in Donkey Kong and Mario Bros., respectively,
+                were both introduced in this game.
+        </div>
+    </div>
+    <div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("menu");
+                var icon = document.getElementById("icon");
+                icon.classList.toggle("fa-window-close");
+                if (x.className === "topnav") {
+                    document.body.style.overflow = "hidden";
+                    x.className = x.className + " responsive";
+
+                } else {
+                    x.className = "topnav";
+                    document.body.style.overflow = "auto"
+                }
+            }
+        </script>
 
 </body>
 
