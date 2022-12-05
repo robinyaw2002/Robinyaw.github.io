@@ -79,8 +79,8 @@ body {
 
 #box1 {
     color: #ffffff;
-    font-size: 24px;
-    width: 650px;
+    font-size: 22px;
+    width: 850px;
     height: 500px;
     text-align: center;
     background: #0e7b45;
@@ -90,8 +90,8 @@ body {
 #box2 {
     left: 100px;
     color: #ffffff;
-    font-size: 24px;
-    width: 650px;
+    font-size: 22px;
+    width: 850px;
     height: 500px;
     text-align: center;
     background: #ae1212;
@@ -112,12 +112,13 @@ body {
 
 #singlebox {
     padding-bottom: 80px;
-    padding-left: 550px;
+    display: flex;
+    justify-content: center;
 }
 
 #box3 {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
     width: 390px;
     height: 500px;
     text-align: center;
@@ -226,7 +227,7 @@ body {
     }
 
     .buttonham {
-        border: 1px solid #c3c3c3;
+        margin-bottom: -15px;
     }
 
     #doublebox {
@@ -237,7 +238,7 @@ body {
     #box1 {
         padding: 0;
         margin: 0;
-        height: 446px;
+        height: 470px;
         width: 336px;
         margin-bottom: 20px;
     }
@@ -245,7 +246,7 @@ body {
     #box2 {
         padding: 0;
         margin: 0;
-        height: 446px;
+        height: 470px;
         width: 336px;
     }
 
@@ -256,9 +257,21 @@ body {
     #box3 {
         padding: 0;
         margin: 0;
-        height: 446px;
+        height: 470px;
         width: 336px;
     }
+
+    #from {
+        width: 335px;
+        margin-top: -30px;
+    }
+
+    #learn {
+        width: 337px;
+        margin-top: -20px;
+    }
+
+
 
 
 }
