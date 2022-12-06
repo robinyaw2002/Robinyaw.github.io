@@ -101,7 +101,7 @@ h2 {
     background: #AE1212;
     border: 1px #ff0606;
     padding-top: 5px;
-    height: 700px;
+
 }
 
 .c0>h2 {
@@ -112,7 +112,7 @@ h2 {
     background: #1B6C1B;
     border: 1px #05ab05;
     padding-top: 55px;
-    height: 651px;
+
 
 }
 
@@ -126,7 +126,7 @@ h2 {
     background: #A72E1B;
     border: 1px#D70404;
     padding-top: 20px;
-    height: 687px;
+
 }
 
 .c2>h2 {
@@ -137,7 +137,7 @@ h2 {
     background: #fa73c4;
     border: 1px #f63535;
     padding-top: 5px;
-    height: 701px;
+
 }
 
 .c3>h2 {
@@ -179,7 +179,7 @@ h2 {
 .c8 {
     background: #A90808;
     border: 1px #F92A2A;
-    height: 670px;
+
 
 }
 
@@ -195,14 +195,14 @@ h2 {
     background: #2B2323;
     border: #737272;
     padding-top: 30px;
-    height: 690px;
+
 }
 
 .c10 {
     background: #1e8d1e;
     border: 1px #01df01;
     padding-top: 0px;
-    height: 770px;
+
 }
 
 .c10>h2 {
@@ -212,7 +212,7 @@ h2 {
 .c11 {
     background: #272424;
     border: 1px #8C8B8B;
-    height: 720px;
+
 }
 
 .c11>h2 {
@@ -243,7 +243,7 @@ h2 {
     background: #C3D5C3;
     border: 1px #ffffff;
     padding-top: 0;
-    height: 730px;
+
 }
 
 .c14>h2 {
@@ -253,7 +253,7 @@ h2 {
 .c15 {
     background: #29BE29;
     border: 1px #54ff54;
-    height: 682px;
+
 }
 
 .c15>img {
@@ -268,6 +268,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    height: 800px;
 
 }
 
