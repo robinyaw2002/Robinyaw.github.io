@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>powerups</title>
+    <link rel="stylesheet" type="text/css" href="css/powerups.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc95e96505.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="images/nes.png" width="60px">
+            </div>
+
+            <div id="menu" class="topnav">
+                <div><a href="https://Robinyaw.github.io/assignment/about.html">About</a></div>
+                <div><a href="https://Robinyaw.github.io/assignment/characters.html">Characters</a></div>
+                <div><a href="#">Levels</a></div>
+                <div><a href="#">Powerups</a></div>
+            </div>
+            <div id="hamburger" class="buttonham">
+                <a onclick="myFunction()">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="headbody">
+            <h1>Powerups</h1>
+            <p>Powerups are unique items that give special<br>
+                abilities to characters that use them. Most of their<br>
+                effects make defeating enemies or exploring levels<br>
+                easier.
+            </p>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div class="row">
+            <div class="content c0">
+                <img src="images/redmushroom.png" width="280px">
+                <h2>Red mushroom</h2>
+                <p class="content">Transforms Small Mario into Super<br>
+                    Mario, allowing him to withstand<br>
+                    taking damage once, break Brick<br>
+                    Blocks, and find other power-ups<br>
+                    in blocks.
+                <p>
+            </div>
+            <div class="content c1">
+                <img src="images/greenmushroom.png" width="380px">
+                <h2>Green mushroom</h2>
+                <p class="content">It gives Mario a life. They are usually<br>
+                    found in Hidden Blocks or in areas<br>
+                    where Mario must risk his life to acquire<br>
+                    one. They are rather uncommon in this<br>
+                    game, the ones in the worlds’s first levels<br>
+                    can only be earned by grabbing all the<br>
+                    coins of the previous world's third<br>
+                    course.
+                <p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="content c2">
+                <img src="images/fireflower.png" width="280px">
+                <h2>Fire flower</h2>
+                <p class="content"> Transforms Mario into Fire Mario,<br>
+                    allowing him to throw fireballs. The <br>
+                    fireballs can kill the enemies easily.
+                <p>
+            </div>
+            <div class="content c3">
+                <img src="images/star.png" width="280px">
+                <h2>Princess toadstool</h2>
+                <p class="content"> Temporarily transforms Mario into<br>
+                    Invincible Mario, granting him <br>
+                    invincibility and allowing him to defeat<br>
+                    most enemies by touching them.
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container3">
+        <div id="footer">
+            <div id="footerleft">
+                <div>
+                    <h2>Contact</h2>
+                </div>
+                <div id="contact">
+                    <p>Phone: 016-202 3701</p>
+                    <p>Facebook: Robin Yaw </p>
+                    <p>Instagram: burning_guy_robin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            var icon = document.getElementById("icon");
+            icon.classList.toggle("fa-window-close");
+            if (x.className === "topnav") {
+                document.body.style.overflow = "hidden";
+                x.className = x.className + " responsive";
+
+            } else {
+                x.className = "topnav";
+                document.body.style.overflow = "auto"
+            }
+        }
+    </script>
+</body>
+
+</html>
