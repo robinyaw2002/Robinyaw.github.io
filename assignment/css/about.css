@@ -72,6 +72,14 @@ body {
     align-items: center;
 }
 
+#pic1>img {
+    width: 380px;
+}
+
+#pic2>img {
+    width: 380px;
+}
+
 #container2 {
     background-color: #7B0E0E;
     border-bottom: 2px solid #AB1602;
@@ -92,8 +100,16 @@ body {
     padding-right: 200px;
 }
 
+#pic3>img {
+    width: 350px;
+}
+
 #pic4 {
     padding-right: 150px;
+}
+
+#pic4>img {
+    width: 450px;
 }
 
 #bodyright {

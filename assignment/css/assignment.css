@@ -102,6 +102,14 @@ body {
     margin-left: 500px;
 }
 
+#box1>img {
+    width: 170px;
+}
+
+#box2>img {
+    width: 170px;
+}
+
 
 #mario {
     padding-bottom: 10px;
@@ -128,6 +136,10 @@ body {
     text-align: center;
     background: #0e457b;
     border: 3px solid #6a38f9;
+}
+
+#box3>img {
+    width: 170px;
 }
 
 .btn1 {
@@ -166,6 +178,7 @@ body {
     color: white;
     font-size: 42px;
 }
+
 
 #footerleft p {
     color: white;
@@ -252,12 +265,25 @@ body {
         margin-bottom: 20px;
     }
 
+    #box1>img {
+        padding-top: 30px;
+        width: 170px;
+    }
+
+
     #box2 {
         padding: 0;
         margin: 0;
         height: 470px;
         width: 336px;
     }
+
+    #box2>img {
+        padding-top: 30px;
+        width: 170px;
+    }
+
+
 
     #singlebox {
         margin-left: 0px;
@@ -270,13 +296,17 @@ body {
         width: 336px;
     }
 
+    #box3>img {
+        padding-top: 3px;
+        width: 170px;
+    }
+
+
     #from {
-        width: 335px;
         margin-top: -30px;
     }
 
     #learn {
-        width: 337px;
         margin-top: -20px;
     }
 

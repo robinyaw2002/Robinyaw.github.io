@@ -35,25 +35,6 @@ body {
     color: #0a87ce;
 }
 
-#menu {
-    display: flex;
-    align-items: center;
-}
-
-.buttonham {
-    font-size: 17px;
-    padding: 16px 5px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#hamburger {
-    display: none;
-    align-items: center;
-}
 
 #headbody>h1 {
     color: white;
@@ -75,4 +56,155 @@ body {
 
 #headbody {
     padding: 80px 280px;
+}
+
+#container2 {
+    background-color: #7B0E0E;
+    border-bottom: 2px solid #AB1602;
+}
+
+.content {
+    width: 35%;
+    margin: 8px;
+    padding: 50px;
+    text-align: center;
+}
+
+.content>img {
+    width: 400px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.content h1 {
+    color: white;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
+.contend {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 22px;
+}
+
+#container3 {
+    background-color: #7B0E0E;
+}
+
+#footer {
+    display: flex;
+    padding: 50px;
+}
+
+#footerleft h2 {
+    color: white;
+    font-size: 42px;
+}
+
+#footerleft p {
+    color: white;
+    font-size: 28px;
+}
+
+#contact {
+    margin-top: 80px;
+
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+.buttonham {
+    font-size: 17px;
+    padding: 16px 5px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#hamburger {
+    display: none;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #hamburger {
+        display: block;
+        z-index: 1;
+        color: white;
+    }
+
+    #menu {
+        display: none;
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #menu>div {
+        margin-top: 30px;
+    }
+
+    #menu.responsive {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttonham {
+        margin-bottom: -15px;
+    }
+
+    #headbody {
+        padding: 50px 80px;
+    }
+
+    .row {
+        display: block;
+        padding: 12%;
+    }
+
+    .content {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .content>img {
+        width: 200px;
+    }
+
+    #headbody {
+        padding: 50px 25px;
+    }
 }
