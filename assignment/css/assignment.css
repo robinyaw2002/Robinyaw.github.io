@@ -87,7 +87,7 @@ body {
     height: 500px;
     text-align: center;
     background: #0e7b45;
-    border: 1px #05b15c;
+    border: 3px solid #05b15c;
 }
 
 #box2 {
@@ -98,7 +98,7 @@ body {
     height: 500px;
     text-align: center;
     background: #ae1212;
-    border: 1px #ff0606;
+    border: 3px solid #ff0606;
     margin-left: 500px;
 }
 
@@ -127,7 +127,7 @@ body {
     height: 500px;
     text-align: center;
     background: #0e457b;
-    border: 1px #6a38f9;
+    border: 3px solid #6a38f9;
 }
 
 .btn1 {
@@ -164,12 +164,12 @@ body {
 
 #footerleft h2 {
     color: white;
-    font-size: 44px;
+    font-size: 42px;
 }
 
 #footerleft p {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #contact {
