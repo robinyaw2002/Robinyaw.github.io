@@ -136,12 +136,12 @@ body {
 
 #footerleft h2 {
     color: white;
-    font-size: 44px;
+    font-size: 42px;
 }
 
 #footerleft p {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #contact {
@@ -229,7 +229,7 @@ body {
     }
 
     #headbodyleft>p {
-        margin-left: -60px;
+        margin-left: 0px;
         width: 98%;
 
     }
