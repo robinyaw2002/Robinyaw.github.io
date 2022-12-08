@@ -89,69 +89,70 @@
      .content>img {
          width: 300px;
      }
+ }
 
-     @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
 
-         body,
-         html {
-             overflow-x: hidden;
-         }
-
-         #hamburger {
-             display: block;
-             z-index: 1;
-             color: white;
-         }
-
-         #menu {
-             display: none;
-             background-color: black;
-             text-align: center;
-             width: 100%;
-             height: 100%;
-
-         }
-
-         #menu>div {
-             margin-top: 30px;
-         }
-
-         #menu.responsive {
-             position: absolute;
-             display: flex;
-             top: 0;
-             left: 0;
-             height: 100%;
-             z-index: 1;
-             flex-direction: column;
-             justify-content: center;
-             text-align: center;
-             align-items: center;
-         }
-
-         .buttonham {
-             margin-bottom: -15px;
-         }
-
-         #headbody {
-             padding: 50px 80px;
-         }
-
-         .row {
-             display: block;
-             padding: 12%;
-         }
-
-         .content {
-             width: 90%;
-             padding: 0px;
-         }
-
-         .content>img {
-             width: 200px;
-         }
-
-         #headbody {
-             padding: 50px 25px;
-         }
+     body,
+     html {
+         overflow-x: hidden;
      }
+
+     #hamburger {
+         display: block;
+         z-index: 1;
+         color: white;
+     }
+
+     #menu {
+         display: none;
+         background-color: black;
+         text-align: center;
+         width: 100%;
+         height: 100%;
+
+     }
+
+     #menu>div {
+         margin-top: 30px;
+     }
+
+     #menu.responsive {
+         position: absolute;
+         display: flex;
+         top: 0;
+         left: 0;
+         height: 100%;
+         z-index: 1;
+         flex-direction: column;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+     }
+
+     .buttonham {
+         margin-bottom: -15px;
+     }
+
+     #headbody {
+         padding: 50px 80px;
+     }
+
+     .row {
+         display: block;
+         padding: 12%;
+     }
+
+     .content {
+         width: 90%;
+         padding: 0px;
+     }
+
+     .content>img {
+         width: 200px;
+     }
+
+     #headbody {
+         padding: 50px 25px;
+     }
+ }
