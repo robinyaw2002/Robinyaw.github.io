@@ -248,7 +248,7 @@ body {
     }
 
     #doublebox {
-        padding: 20px 0px 20px 20px;
+        padding: 20px 0px 20px 17px;
         flex-direction: column;
 
     }
@@ -283,7 +283,9 @@ body {
         width: 170px;
     }
 
-
+    #box2>p {
+        padding-top: 45px;
+    }
 
     #singlebox {
         margin-left: 0px;
@@ -297,10 +299,13 @@ body {
     }
 
     #box3>img {
-        padding-top: 3px;
+        padding-top: 26px;
         width: 170px;
     }
 
+    #box3>p {
+        padding-top: 22px;
+    }
 
     #from {
         margin-top: -30px;
