@@ -1,41 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 #container {
     background-color: #1BA7FF;
 }
 
-#logo {
-    padding-left: 75px;
-    padding-top: 10px;
-
-}
-
-#header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-
-}
-
-#header a {
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.topnav {
-    margin-right: 75px;
-}
-
-#header a:hover {
-    background-color: #ffffff;
-    color: #0a87ce;
-}
 
 #headbody {
     display: flex;
@@ -145,82 +111,75 @@ body {
     background-color: #7B0E0E;
 }
 
-#footer {
-    display: flex;
-    padding: 50px;
+
+@media screen and (max-width: 1000px) {
+    #headbodyleft {
+        width: 80%;
+    }
+
+    #headbodyleft>h1 {
+        font-size: 46px;
+    }
+
+    #headbodyleft>p {
+        font-size: 18px;
+    }
+
+    #headbodyright {
+        width: 55%;
+        margin-top: 150px;
+
+    }
+
+
+
+    #pic1>img {
+        width: 320px;
+    }
+
+    #pic2>img {
+        width: 320px;
+    }
+
+
+    #bodyleft {
+        width: 60%;
+        margin-top: 40px;
+
+    }
+
+
+    #pic3>img {
+        width: 280px;
+    }
+
+
+    #pic4>img {
+        width: 380px;
+    }
+
+    #bodyright {
+        width: 50%;
+        margin-top: 20px;
+
+    }
+
+    #bodyright>h1 {
+        font-size: 46px;
+
+    }
+
+    #bodyright>p {
+        font-size: 18px;
+
+    }
+
+
+
 }
 
-#footerleft h2 {
-    color: white;
-    font-size: 42px;
-}
-
-#footerleft p {
-    color: white;
-    font-size: 28px;
-}
-
-#contact {
-    margin-top: 80px;
-
-}
-
-#menu {
-    display: flex;
-    align-items: center;
-}
-
-.buttonham {
-    font-size: 17px;
-    padding: 16px 5px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#hamburger {
-    display: none;
-    align-items: center;
-}
 
 @media screen and (max-width: 600px) {
-    #hamburger {
-        display: block;
-        z-index: 1;
-        color: white;
-    }
-
-    #menu {
-        display: none;
-        background-color: black;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-
-    }
-
-    #menu>div {
-        margin-top: 30px;
-    }
-
-    #menu.responsive {
-        position: absolute;
-        display: flex;
-        top: 0;
-        left: 0px;
-        height: 100%;
-        z-index: 1;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .buttonham {
-        margin-bottom: -15px;
-    }
 
     #headbody,
     #headbody2 {
