@@ -62,7 +62,7 @@
      background: #1B6C1B;
      border: 3px solid #05ab05;
      padding-top: 65px;
-     height: 661px;
+     height: 651px;
 
  }
 
@@ -325,6 +325,7 @@
 
      .content {
          margin-left: -10px;
+
      }
 
 
@@ -466,6 +467,10 @@
 
      .c15>img {
          width: 430px;
+     }
+
+     .row {
+         width: 30%;
      }
  }
 
