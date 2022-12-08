@@ -323,6 +323,10 @@
          height: 7300px;
      }
 
+     .content {
+         margin-left: -10px;
+     }
+
 
      .content>h2 {
          font-size: 40px;
