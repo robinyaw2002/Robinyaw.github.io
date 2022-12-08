@@ -37,11 +37,6 @@ body {
     align-items: center;
 }
 
-#container {
-    background-color: #1ba7ff;
-    text-align: center;
-    height: 600px;
-}
 
 #menu {
     display: flex;
