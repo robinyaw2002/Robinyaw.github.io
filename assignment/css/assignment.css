@@ -1,3 +1,9 @@
+#container {
+    background-color: #1ba7ff;
+    text-align: center;
+    height: 600px;
+}
+
 .titlescreen {
     text-align: center;
     padding-top: 70px;
@@ -17,6 +23,11 @@
     border-radius: 20px;
     text-decoration: none;
     padding: 20px 20px;
+}
+
+#container2 {
+    background-color: #7B0E0E;
+    border-bottom: 2px solid #AB1602;
 }
 
 
@@ -84,6 +95,10 @@
     border-radius: 20px;
     text-decoration: none;
     padding: 20px 20px;
+}
+
+#container3 {
+    background-color: #7B0E0E;
 }
 
 
