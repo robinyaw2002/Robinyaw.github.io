@@ -142,6 +142,70 @@
 
 
  @media screen and (max-width: 1000px) {
+     #headbody>h1 {
+         font-size: 46px;
+
+     }
+
+     #headbody>p {
+         font-size: 20px;
+
+     }
+
+     .content {
+         margin-left: -10px;
+     }
+
+     .c0 {
+         height: 615px;
+
+     }
+
+     .c0>img {
+         width: 240px;
+     }
+
+
+
+     .c1 {
+         height: 620px;
+     }
+
+     .c1>img {
+         width: 320px;
+     }
+
+     .c1>h2 {
+         margin-top: -7px;
+     }
+
+     .c2 {
+         height: 605px;
+
+     }
+
+     .c2>img {
+         width: 280px;
+     }
+
+     .c3 {
+         height: unset;
+     }
+
+     .c3>img {
+         width: 240px;
+     }
+
+     .content>h2 {
+         font-size: 40px;
+     }
+
+     .content>p {
+         font-size: 18px;
+
+
+     }
+
      @media screen and (max-width: 600px) {
 
          body,
