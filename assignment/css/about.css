@@ -9,7 +9,7 @@
 }
 
 #headbodyleft {
-    width: 70%;
+    width: 43%;
 }
 
 #headbodyleft>h1 {
@@ -21,15 +21,16 @@
 #headbodyleft>p {
     color: white;
     font-size: 22px;
-    line-height: 1.8;
+    line-height: 2.5;
     display: flex;
     justify-content: center;
+    margin-left: 20px;
 }
 
 #headbodyright {
-    width: 55%;
+    width: 30%;
     margin-top: 20px;
-    padding-left: 200px;
+    padding-left: 300px;
 }
 
 #headbodyright>div {
@@ -79,7 +80,7 @@
 }
 
 #bodyright {
-    width: 50%;
+    width: 34%;
     margin-top: 20px;
 
 }
@@ -95,7 +96,7 @@
 #bodyright>p {
     color: white;
     font-size: 22px;
-    line-height: 1.8;
+    line-height: 2.5;
     display: flex;
     justify-content: center;
 
