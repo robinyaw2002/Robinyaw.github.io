@@ -18,12 +18,13 @@
      font-size: 24px;
      line-height: 1.8;
      display: flex;
-     justify-content: center;
-     width: 100%;
+     padding-left: 210px;
+     width: 55%;
  }
 
  #headbody {
      padding: 80px 280px;
+
  }
 
  #container2 {
@@ -33,7 +34,7 @@
  }
 
  .content {
-     width: 38%;
+     width: 33%;
      margin: 8px;
      padding: 50px;
      text-align: center;
@@ -61,6 +62,8 @@
  .c0>h2 {
      margin-top: 0px;
  }
+
+
 
  .c1 {
      background: #1B6C1B;
@@ -109,6 +112,10 @@
  .c3>h2 {
      margin-top: -13px;
  }
+
+
+
+
 
  .row {
      display: flex;

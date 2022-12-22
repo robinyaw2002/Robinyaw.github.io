@@ -79,3 +79,36 @@
     color: silver;
     background-color: black;
 }
+
+@media screen and (max-width: 1400px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        body,
+        html {
+            overflow-x: hidden;
+        }
+
+        @media screen and (max-width: 1000px) {
+
+            body,
+            html {
+                overflow-x: hidden;
+            }
+
+            @media screen and (max-width: 600px) {
+
+                body,
+                html {
+                    overflow-x: hidden;
+                }
+
+                menu {
+                    width: 100%;
+                }
+            }
