@@ -319,6 +319,12 @@
  }
 
  @media screen and (max-width: 1000px) {
+
+     body,
+     html {
+         overflow-x: hidden;
+     }
+
      #container2 {
          height: 7300px;
      }
