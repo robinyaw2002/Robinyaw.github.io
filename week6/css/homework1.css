@@ -1,0 +1,491 @@
+#header {
+    max-width: 1500px;
+    height: 750px;
+    margin: auto;
+    position: relative;
+}
+
+#bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#backgroundphone {
+    position: absolute;
+    right: 180px;
+    top: 150px;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+#menu {
+    position: absolute;
+    display: flex;
+    right: 200px;
+    top: 40px;
+}
+
+#menu a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+#menu a:hover {
+    color: black;
+    background-color: white;
+}
+
+#logo {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+
+#social {
+    position: absolute;
+    left: 80px;
+    top: 320px;
+}
+
+#social img {
+    display: flex;
+    padding: 20px;
+}
+
+#media {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#title01 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#title02 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    line-height: 2px;
+    font-weight: 700;
+}
+
+
+
+#rectangle {
+    position: absolute;
+    left: 200px;
+    top: 420px;
+}
+
+#audit {
+    position: absolute;
+    left: 220px;
+    top: 415px;
+    color: white;
+}
+
+#mouse {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 600px;
+}
+
+
+#body1 {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#picture {
+    position: absolute;
+    top: 0;
+    left: 110px;
+}
+
+#bio {
+    color: blue;
+}
+
+#we {
+    font-size: 50px;
+}
+
+#who {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    line-height: 20px;
+}
+
+#rectangle1 {
+    position: absolute;
+    right: 570px;
+    top: 440px;
+}
+
+#see {
+    position: absolute;
+    right: 592px;
+    top: 435px;
+    color: white;
+    font-size: 13px;
+}
+
+
+.body2 {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    height: 1150px;
+    margin: auto;
+    position: relative;
+}
+
+#our {
+    position: absolute;
+    top: 30px;
+    left: 160px;
+}
+
+#services {
+    color: blue;
+}
+
+#background1 {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+#page3 {
+    position: absolute;
+    display: flex;
+    left: 70px;
+    top: 200px;
+    width: 100%;
+}
+
+
+.box {
+    padding: 20px 20px 70px 20px;
+    margin-right: 140px;
+    width: 35%;
+    box-shadow: 0px 5px 10px lightgrey;
+    border-radius: 50px;
+    background-color: white;
+    flex: 1;
+}
+
+.box img {
+    margin-left: 120px;
+}
+
+.box>p {
+    font-size: 14px;
+}
+
+#img {
+    position: absolute;
+    display: flex;
+    top: 450px;
+    left: 290px;
+    width: 100%;
+}
+
+#img div {
+    flex: 1;
+}
+
+#text {
+    position: absolute;
+    display: flex;
+    top: 443px;
+    left: 295px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+#text div {
+    flex: 1;
+}
+
+#page3_1 {
+    position: absolute;
+    display: flex;
+    left: 70px;
+    top: 600px;
+    width: 100%;
+}
+
+#img1 {
+    position: absolute;
+    display: flex;
+    top: 890px;
+    left: 290px;
+    width: 100%;
+}
+
+#img1 div {
+    flex: 1;
+}
+
+#text1 {
+    position: absolute;
+    display: flex;
+    top: 884px;
+    left: 295px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+#text1 div {
+    flex: 1;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+.body3 {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+    background-color: #e6e6ff;
+}
+
+#pricing {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 20px;
+}
+
+#pricing p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(151, 151, 242);
+}
+
+#page4 {
+    position: absolute;
+    display: flex;
+    left: 70px;
+    top: 180px;
+    width: 100%;
+}
+
+.box1 {
+    padding: 40px 10px 70px 10px;
+    margin-right: 140px;
+    height: 250px;
+    width: 33.33%;
+    box-shadow: 0px 5px 10px lightgrey;
+    border-radius: 50px;
+    background-color: white;
+    flex: 1;
+    text-align: center;
+}
+
+.price {
+    color: blue;
+}
+
+#image1 {
+    position: absolute;
+    top: 450px;
+    left: 190px;
+    width: 110px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+#image1 p {
+    position: absolute;
+    top: -10px;
+    left: 16px;
+}
+
+#image2 img {
+    position: absolute;
+    top: 450px;
+    left: 680px;
+}
+
+#image2 p {
+    position: absolute;
+    top: 441px;
+    left: 696px;
+    color: white;
+}
+
+#image3 {
+    position: absolute;
+    top: 415px;
+    right: -1160px;
+    width: 110px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+#image3 p {
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+}
+
+.body4 {
+    max-width: 1500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+#news {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    line-height: 10px;
+}
+
+#news p {
+    color: rgb(151, 151, 242);
+}
+
+#news h2 {
+    font-size: 35px;
+}
+
+#email {
+    position: absolute;
+    border: 2px solid white;
+    padding: 1px 280px 1px 20px;
+    background-color: rgb(248, 248, 246);
+    top: 220px;
+    left: 430px;
+}
+
+#email p {
+    color: gray;
+}
+
+#last {
+    position: absolute;
+    left: 870px;
+    top: 232px;
+}
+
+#last p {
+    position: absolute;
+    left: 23px;
+    top: -7px;
+    color: white;
+}
+
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    background-image: url(../images/footer2@2x.png), url(../images/footer1@2x.png);
+    background-size: 1300px 2050px, 1906px 2000px;
+    background-position: 60% 23%, 90% 25%;
+    background-repeat: no-repeat;
+}
+
+
+#stay {
+    position: absolute;
+    left: 170px;
+    top: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+#stay h1 {
+    text-align: center;
+}
+
+#social1 {
+    position: absolute;
+    left: 180px;
+    top: 250px;
+}
+
+#social1 img {
+    padding: 10px;
+}
+
+#quick {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    color: white;
+}
+
+#hours {
+    position: absolute;
+    left: 730px;
+    top: 100px;
+    color: white;
+}
+
+#contact {
+    position: absolute;
+    right: 450px;
+    top: 100px;
+    color: white;
+}
+
+#info {
+    position: absolute;
+    color: white;
+    right: 390px;
+    top: 140px;
+}
+
+#location {
+    position: absolute;
+    right: 505px;
+    top: 160px;
+}
+
+#location img {
+    display: flex;
+    padding-bottom: 30px;
+}
