@@ -507,6 +507,14 @@
      }
  }
 
+ @media screen and (max-width: 1250px) {
+
+     body,
+     html {
+         overflow-x: hidden;
+     }
+ }
+
  @media screen and (max-width: 600px) {
 
      body,
