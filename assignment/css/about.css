@@ -114,8 +114,14 @@
 
 
 @media screen and (max-width: 1000px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
     #headbodyleft {
-        width: 80%;
+        width: 50%;
     }
 
     #headbodyleft>h1 {
