@@ -74,10 +74,16 @@
 
  .c1>img {
      width: 380px;
+     padding-left: 10px;
  }
 
  .c1>h2 {
      margin-top: -15px;
+     padding-left: 20px;
+ }
+
+ .c1>p {
+     padding-left: 55px;
  }
 
 
@@ -107,13 +113,17 @@
 
  .c3>img {
      width: 280px;
+     padding-left: 10px;
  }
 
  .c3>h2 {
      margin-top: -13px;
+     padding-left: 20px;
  }
 
-
+ .c3>p {
+     padding-left: 55px;
+ }
 
 
 
