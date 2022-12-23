@@ -19,7 +19,8 @@
      line-height: 1.8;
      display: flex;
      justify-content: center;
-     width: 100%;
+     width: 58%;
+     margin-left: 200px;
  }
 
  #headbody {
@@ -33,7 +34,7 @@
  }
 
  .content {
-     width: 38%;
+     width: 33%;
      margin: 8px;
      padding: 50px;
      text-align: center;
