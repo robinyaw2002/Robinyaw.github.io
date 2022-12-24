@@ -19,7 +19,7 @@
      font-size: 24px;
      line-height: 1.8;
      display: flex;
-     padding-left: 230px;
+     padding-left: 240px;
      width: 52%;
  }
 
@@ -158,6 +158,13 @@
      background-color: #7B0E0E;
  }
 
+ @media screen and (max-width: 1360px) {
+     #headbody>p {
+         width: 53%;
+         margin-left: -40px;
+
+     }
+ }
 
  @media screen and (max-width: 1000px) {
      #headbody>h1 {
