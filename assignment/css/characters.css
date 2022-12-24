@@ -56,7 +56,7 @@
  }
 
  .c0>h2 {
-     margin-top: -2px;
+     margin-top: 0;
  }
 
  .c1 {
@@ -118,7 +118,7 @@
  .c5 {
      background: #1f7d1f;
      border: 3px solid #04c804;
-     padding-top: 0px;
+     padding-top: 0;
      height: 715px;
  }
 
@@ -135,6 +135,11 @@
      border: 3px solid #F73B3B;
      padding-top: 15px;
      height: 700px;
+ }
+
+ .c6>h2 {
+     padding-top: -1px;
+
  }
 
  .c7 {
@@ -164,7 +169,7 @@
  }
 
  .c8>h2 {
-     margin-top: -10px;
+     margin-top: -9px;
  }
 
  .c9 {
@@ -190,7 +195,7 @@
  }
 
  .c10>h2 {
-     margin-top: 0px;
+     margin-top: -3px;
  }
 
  .c11 {
@@ -216,7 +221,7 @@
  }
 
  .c12>h2 {
-     margin-top: 0;
+     margin-top: -2px;
  }
 
  .c13 {
@@ -242,7 +247,7 @@
  }
 
  .c14>h2 {
-     margin-top: -50px;
+     margin-top: -57px;
      padding-left: 20px;
  }
 
