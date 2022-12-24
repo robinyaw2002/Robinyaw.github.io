@@ -79,7 +79,7 @@
  @media screen and (max-width: 1360px) {
      #headbody>p {
          width: 84%;
-         margin-left: -70px
+         margin-left: -70px;
      }
  }
 
