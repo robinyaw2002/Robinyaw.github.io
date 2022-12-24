@@ -84,12 +84,14 @@
 
      #headbody>p {
          font-size: 18px;
-         width: 97%;
+         width: 200%;
+         margin-left: -210px;
 
      }
 
      .contend {
          font-size: 18px;
+         width: 50%;
      }
 
      .content>img {
@@ -104,44 +106,19 @@
          overflow-x: hidden;
      }
 
-     #hamburger {
-         display: block;
-         z-index: 1;
-         color: white;
-     }
 
-     #menu {
-         display: none;
-         background-color: black;
-         text-align: center;
-         width: 100%;
-         height: 100%;
-
-     }
-
-     #menu>div {
-         margin-top: 30px;
-     }
-
-     #menu.responsive {
-         position: absolute;
-         display: flex;
-         top: 0;
-         left: 0;
-         height: 100%;
-         z-index: 1;
-         flex-direction: column;
-         justify-content: center;
-         text-align: center;
-         align-items: center;
-     }
-
-     .buttonham {
-         margin-bottom: -15px;
-     }
 
      #headbody {
          padding: 50px 80px;
+         width: 33%;
+     }
+
+     #headbody>h1 {
+         margin-left: 160px;
+     }
+
+     #headbody>p {
+         margin-left: -60px;
      }
 
      .row {
@@ -160,5 +137,14 @@
 
      #headbody {
          padding: 50px 25px;
+     }
+
+     .content>h2 {
+         font-size: 40px;
+     }
+
+     .contend {
+         margin-top: 20px;
+         margin-left: 20px;
      }
  }
