@@ -65,6 +65,7 @@
 
 #pic3 {
     padding-right: 200px;
+    margin-top: 150px;
 }
 
 #pic3>img {
@@ -121,20 +122,23 @@
     }
 
     #headbodyleft {
-        width: 50%;
+        width: 80%;
     }
 
     #headbodyleft>h1 {
         font-size: 46px;
+        padding-left: 130px;
     }
 
     #headbodyleft>p {
         font-size: 18px;
+        width: 150%;
     }
 
     #headbodyright {
-        width: 55%;
-        margin-top: 150px;
+        width: 60%;
+        margin-top: 100px;
+        margin-left: -100px;
 
     }
 
@@ -166,8 +170,9 @@
     }
 
     #bodyright {
-        width: 50%;
+        width: 80%;
         margin-top: 20px;
+        margin-left: -80px;
 
     }
 
@@ -206,8 +211,12 @@
     }
 
     #headbodyleft {
-        padding-right: 0px;
+        margin-right: 100px;
 
+    }
+
+    #headbodyleft>h1 {
+        margin-left: -140px;
     }
 
     #headbodyleft>p {
@@ -219,7 +228,7 @@
 
     #headbodyright {
         display: flex;
-        padding-left: 0;
+        padding-left: 90px;
     }
 
     #pic1 {
@@ -239,16 +248,16 @@
 
     #bodyright>h1 {
         padding-right: 0;
-
+        margin-right: -150px;
     }
 
     #bodyright>p {
         width: 100%;
+        margin-left: 80px;
     }
 
     #bodyleft {
         margin-left: 100px;
-
 
     }
 }
