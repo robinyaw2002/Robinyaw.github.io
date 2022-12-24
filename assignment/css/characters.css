@@ -382,6 +382,10 @@
          margin-left: -80px;
      }
 
+     #headbody>h1 {
+         margin-left: 10px;
+     }
+
      #container2 {
          height: 7300px;
      }
@@ -640,6 +644,7 @@
      #headbody>h1 {
          font-size: 40px;
          margin-top: -15px;
+         margin-left: 60px;
      }
 
 
