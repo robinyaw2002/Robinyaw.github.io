@@ -59,7 +59,7 @@
  }
 
  .c0>h2 {
-     margin-top: 0px;
+     margin-top: -3px;
  }
 
 
@@ -100,14 +100,14 @@
  }
 
  .c2>h2 {
-     margin-top: -12px;
+     margin-top: -14px;
  }
 
  .c3 {
      background: #a7611b;
      border: 3px solid #f57b00;
      padding-top: 5px;
-     height: unset;
+     height: 600px;
  }
 
  .c3>img {
@@ -160,12 +160,14 @@
  @media screen and (max-width: 1000px) {
      #headbody>h1 {
          font-size: 46px;
+         margin-left: -285px;
 
      }
 
      #headbody>p {
          font-size: 20px;
-
+         margin-left: -250px;
+         width: 150%;
      }
 
      .content {
@@ -179,6 +181,7 @@
 
      .c0>img {
          width: 240px;
+         margin-left: 8px;
      }
 
 
@@ -189,7 +192,7 @@
 
      .c1>img {
          width: 320px;
-         padding-left: 40px;
+         margin-left: -30px;
      }
 
      .c1>h2 {
@@ -203,6 +206,7 @@
 
      .c2>img {
          width: 280px;
+         margin-left: -12px;
      }
 
      .c3 {
@@ -211,15 +215,17 @@
 
      .c3>img {
          width: 240px;
-         padding-left: 40px;
+         margin-left: 0px;
      }
 
      .content>h2 {
          font-size: 40px;
+         margin-left: 25px;
      }
 
      .content>p {
          font-size: 18px;
+         margin-left: -20px;
 
 
      }
@@ -280,27 +286,27 @@
 
          #headbody {
              padding-left: 30px;
-             width: 100%;
+             width: 90%;
          }
 
          #headbody>h1 {
              font-size: 40px;
              margin-top: -15px;
-             margin-left: -40px;
+             margin-left: -260px;
          }
 
 
 
          #headbody>p {
              font-size: 20px;
-             margin-left: 30px;
-             width: 75%;
+             margin-left: -180px;
+             width: 80%;
 
          }
 
          .row {
              display: block;
-             padding: 20px 0px 20px 40px;
+             padding: 20px 0px 20px 53px;
              width: 90%;
              float: none;
 
@@ -322,13 +328,14 @@
              display: flex;
              flex-direction: column;
              align-items: center;
-
+             margin-right: 10px;
          }
 
          .content>p {
              font-size: 20px;
              width: 85%;
              text-align: left;
+             margin-left: 20px;
          }
 
 
@@ -339,6 +346,7 @@
 
          .content>h2 {
              padding-left: 60px;
+             margin-left: -10px;
          }
 
          .content>p {
@@ -356,6 +364,7 @@
 
          .c0>img {
              width: 180px;
+             margin-left: -15px;
          }
 
          .c1 {
@@ -364,6 +373,7 @@
 
          .c1>img {
              width: 240px;
+             margin-right: 3px;
          }
 
          .c2 {
