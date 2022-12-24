@@ -36,35 +36,55 @@
     color: silver;
 }
 
-.site {
-    display: flex;
-}
-
-.site a {
-    color: silver;
-    padding: 16px 20px;
-}
-
-.site a:hover {
-    color: greenyellow;
+.week {
     background-color: silver;
-}
+    color: black;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
 
-#content {
-    color: white;
-    background-color: black;
-    padding: 20px;
 }
 
 #homework {
     background-color: black;
 }
 
-#homeworks {
-    padding: 80px;
+.homeworks {
     position: relative;
-    color: silver;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.site {
+    display: none;
+    position: absolute;
+    background-color: silver;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.site a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.site a:hover {
     background-color: black;
+    color: silver;
+    border-radius: 10px;
+}
+
+.homeworks:hover .site {
+    display: block;
+}
+
+.homeworks:hover .week {
+    background-color: silver;
+    color: black;
 }
 
 
@@ -80,35 +100,30 @@
     background-color: black;
 }
 
-@media screen and (max-width: 1400px) {
+
+@media screen and (max-width: 900px) {
 
     body,
     html {
         overflow-x: hidden;
     }
+}
 
-    @media screen and (max-width: 1200px) {
 
-        body,
-        html {
-            overflow-x: hidden;
-        }
 
-        @media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
 
-            body,
-            html {
-                overflow-x: hidden;
-            }
 
-            @media screen and (max-width: 600px) {
 
-                body,
-                html {
-                    overflow-x: hidden;
-                }
+    menu {
+        width: 100%;
+    }
 
-                menu {
-                    width: 100%;
-                }
-            }
+    .homeworks {
+        flex-direction: column;
+    }
+
+    #pic {
+        width: 100%;
+    }
+}
