@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Others</title>
+    <link rel="stylesheet" href="css/others.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/cc95e96505.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body class="m-0">
+    <div class="container-fluid p-0">
+        <div class="header">
+            <div class="logo">
+                <img class="logoimg" src="images/logo.png" alt="Logo" width="150px">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <div>
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        href="timeline.html">Timeline</a>
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a class="dropdown-item" href="phase1.html">Phase 1</a></li>
+                        <li><a class="dropdown-item" href="phase2.html">Phase 2</a></li>
+                        <li><a class="dropdown-item" href="phase3.html">Phase 3</a></li>
+                        <li><a class="dropdown-item" href="phase4.html">Phase 4</a></li>
+                        <li><a class="dropdown-item" href="phase5.html">Phase 5</a></li>
+                        <li><a class="dropdown-item" href="phase6.html">Phase 6</a></li>
+                    </ul>
+                </div>
+                <a href="movies.html">Movies</a>
+                <a class="bg-light rounded-3 text-dark" href="others.html">Others</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/marvel.jpg" class="d-block w-100" alt="Marvel Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/marvel2.jpg" class="d-block w-100" alt="Marvel Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/marvel3.jpg" class="d-block w-100" alt="Marvel Photo">
+                </div>
+            </div>
+            <div class="footer py-4">
+                <div id="foot">
+                    <img id="footlogo" src="images/logo.png" alt="Logo" width="200px">
+                </div>
+                <div class="footmenu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="timeline.html">Timeline</a>
+                    <a href="movies.html">Movies</a>
+                    <a href="others.html">Others</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="social text-center">
+                    <h3>Follow Marvel</h3>
+                    <a href="https://www.facebook.com/groups/myeasymoment.sarawak/"><img class="footicon"
+                            src="images/fblogo2.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/sarawaktravel/"><img class="footicon" src="images/iglogo2.png"
+                            alt="instagram"></a>
+                    <a href="https://twitter.com/SarawakTravel"><img class="footicon" src="images/twitter2.png"
+                            alt="twitter"></a>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+</body>
+
+</html>
