@@ -15,11 +15,12 @@
 
  #headbody>p {
      color: white;
-     font-size: 24px;
+     font-size: 27px;
      line-height: 1.8;
      display: flex;
-     padding-left: 240px;
-     width: 52%;
+     justify-content: center;
+     width: 67%;
+     margin-left: 192px;
  }
 
  #headbody {

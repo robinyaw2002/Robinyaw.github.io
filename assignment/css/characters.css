@@ -17,7 +17,7 @@
      display: flex;
      justify-content: center;
      width: 67%;
-     margin-left: 192px;
+     margin-left: 180px;
  }
 
  #headbody {
@@ -409,6 +409,74 @@
          width: 82%;
          margin-left: 96px;
 
+     }
+
+     .content>p {
+         width: 84%;
+     }
+
+     .c0>p {
+         margin-left: 40px;
+     }
+
+     .c1>p {
+         padding-left: 50px;
+     }
+
+     .c2>p {
+         padding-left: 50px;
+     }
+
+     .c3>p {
+         padding-left: 50px;
+     }
+
+     .c4>p {
+         padding-left: 50px;
+     }
+
+     .c5>p {
+         padding-left: 50px;
+     }
+
+     .c6>p {
+         padding-left: 50px;
+     }
+
+     .c7>p {
+         padding-left: 50px;
+     }
+
+     .c8>p {
+         padding-left: 50px;
+     }
+
+     .c9>p {
+         padding-left: 50px;
+     }
+
+     .c10>p {
+         padding-left: 50px;
+     }
+
+     .c11>p {
+         padding-left: 50px;
+     }
+
+     .c12>p {
+         padding-left: 50px;
+     }
+
+     .c13>p {
+         padding-left: 50px;
+     }
+
+     .c14>p {
+         padding-left: 50px;
+     }
+
+     .c15>p {
+         padding-left: 50px;
      }
  }
 
