@@ -267,28 +267,28 @@
 
 
          #headbody {
-             padding-left: 30px;
+             padding-left: 40px;
              width: 90%;
          }
 
          #headbody>h1 {
              font-size: 40px;
              margin-top: -15px;
-             margin-left: -240px;
+
          }
 
 
 
          #headbody>p {
              font-size: 20px;
-             margin-left: -180px;
+             margin-left: 20px;
              width: 80%;
 
          }
 
          .row {
              display: block;
-             padding: 20px 0px 20px 22px;
+             padding: 20px 0px 30px 22px;
              width: 90%;
              float: none;
 
