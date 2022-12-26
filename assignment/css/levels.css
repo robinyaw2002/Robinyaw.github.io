@@ -17,7 +17,7 @@
      display: flex;
      justify-content: center;
      width: 67%;
-     margin-left: 192px;
+     margin-left: 180px;
  }
 
  #headbody {
@@ -78,7 +78,7 @@
  @media screen and (max-width: 1360px) {
      #headbody>p {
          width: 82%;
-         margin-left: 102px;
+         margin-left: 100px;
      }
 
      .contend {
