@@ -78,8 +78,11 @@
  @media screen and (max-width: 1360px) {
      #headbody>p {
          width: 82%;
-         margin-left: 96px;
+         margin-left: 102px;
+     }
 
+     .contend {
+         width: 40%;
      }
  }
 
