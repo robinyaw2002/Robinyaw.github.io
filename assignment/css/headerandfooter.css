@@ -129,4 +129,12 @@ body {
     .buttonham {
         margin-bottom: -15px;
     }
+
+    #contact a {
+        font-size: 22px;
+    }
+
+    #contact p {
+        font-size: 24px;
+    }
 }
