@@ -1094,6 +1094,7 @@
 
      .c15>img {
          width: 370px;
+         margin-left: 0;
      }
 
      .content>img {
@@ -1113,7 +1114,7 @@
 
 
      #container2 {
-         height: 11400px;
+         height: 10400px;
      }
 
      img {
