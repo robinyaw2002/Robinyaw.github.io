@@ -175,6 +175,10 @@
          width: 95%;
          margin-left: -10px;
      }
+
+     .c0>h2 {
+         margin-left: 10px;
+     }
  }
 
  @media screen and (max-width: 1000px) {
@@ -188,10 +192,6 @@
          font-size: 20px;
          margin-left: -70px;
          width: 150%;
-     }
-
-     .content {
-         margin-left: -10px;
      }
 
      .c0 {
@@ -245,7 +245,7 @@
 
      .content>p {
          font-size: 18px;
-         margin-left: -20px;
+         margin-left: -30px;
 
 
      }
@@ -288,7 +288,7 @@
 
          .row {
              display: block;
-             padding: 20px 0px 20px 53px;
+             padding: 20px 0px 20px 22px;
              width: 90%;
              float: none;
 
@@ -305,12 +305,12 @@
          }
 
          .content {
-             width: 68%;
+             width: 78%;
              padding-left: 0px;
              display: flex;
              flex-direction: column;
              align-items: center;
-             margin-right: 10px;
+             margin-right: 20px;
          }
 
          .content>p {

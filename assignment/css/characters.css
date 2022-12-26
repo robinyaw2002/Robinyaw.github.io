@@ -414,6 +414,10 @@
          width: 84%;
      }
 
+     .c0>h2 {
+         margin-left: 10px;
+     }
+
      .c0>p {
          margin-left: 40px;
      }
