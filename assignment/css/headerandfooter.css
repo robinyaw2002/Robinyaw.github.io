@@ -35,13 +35,9 @@ body {
 #menu {
     display: flex;
     align-items: center;
+
 }
 
-
-#menu {
-    display: flex;
-    align-items: center;
-}
 
 .buttonham {
     font-size: 17px;
