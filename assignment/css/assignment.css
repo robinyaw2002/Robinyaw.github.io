@@ -112,6 +112,11 @@
 
     #box2 {
         width: 380px;
+
+    }
+
+    #from {
+        margin-right: 1px;
     }
 
     @media screen and (max-width: 1000px) {
