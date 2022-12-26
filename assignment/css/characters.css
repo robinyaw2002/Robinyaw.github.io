@@ -407,8 +407,7 @@
  @media screen and (max-width: 1360px) {
      #headbody>p {
          width: 82%;
-         margin-left: 100px;
-
+         margin-left: 100px
      }
 
      .content>p {
