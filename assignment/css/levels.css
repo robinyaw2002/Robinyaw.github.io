@@ -87,6 +87,12 @@
  }
 
  @media screen and (max-width: 1000px) {
+
+     body,
+     html {
+         overflow-x: hidden;
+     }
+
      #headbody>h1 {
          font-size: 46px;
      }
@@ -108,13 +114,7 @@
      }
  }
 
- @media screen and (max-width: 950px) {
 
-     body,
-     html {
-         overflow-x: hidden;
-     }
- }
 
  @media screen and (max-width: 600px) {
 
