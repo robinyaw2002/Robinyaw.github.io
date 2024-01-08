@@ -1,0 +1,162 @@
+#headbody>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#headbody>p {
+    color: white;
+    font-size: 27px;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    margin-left: 155px;
+}
+
+#headbody {
+    padding: 80px 280px;
+}
+
+
+
+.content {
+    width: 35%;
+    margin: 8px;
+    padding: 50px;
+    text-align: center;
+}
+
+.content>img {
+    width: 400px;
+}
+
+.content>h2 {
+    font-size: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.content h1 {
+    color: white;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
+.contend {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 27px;
+    margin-top: -100px;
+    width: 37%;
+}
+
+@media screen and (max-width: 1360px) {
+    #headbody>p {
+        width: 82%;
+        margin-left: 100px;
+    }
+
+    .contend {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #headbody>h1 {
+        font-size: 46px;
+    }
+
+    #headbody>p {
+        font-size: 18px;
+        width: 200%;
+        margin-left: -110px;
+
+    }
+
+    .contend {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .content>img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+
+
+    #headbody {
+        padding: 50px 80px;
+        width: 33%;
+    }
+
+    #headbody>h1 {
+        margin-left: 160px;
+    }
+
+    #headbody>p {
+        margin-left: 40px;
+    }
+
+    .row {
+        display: block;
+        padding: 12%;
+    }
+
+    .content {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .content>img {
+        width: 200px;
+    }
+
+    #headbody {
+        padding: 50px 25px;
+    }
+
+    .content>h2 {
+        font-size: 40px;
+    }
+
+    .contend {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}

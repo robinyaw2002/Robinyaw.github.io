@@ -1,0 +1,413 @@
+#headbody {
+    display: flex;
+    padding: 80px;
+}
+
+#headbodyleft {
+    width: 43%;
+}
+
+#headbodyleft>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#headbodyleft>p {
+    color: white;
+    font-size: 27px;
+    line-height: 2.5;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#headbodyright {
+    width: 30%;
+    margin-top: 20px;
+    padding-left: 300px;
+}
+
+#headbodyright>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic1>img {
+    width: 380px;
+}
+
+#pic2>img {
+    width: 420px;
+}
+
+
+#pic3>img {
+    width: 280px;
+}
+
+#pic4>img {
+    width: 370px;
+}
+
+
+
+#headbody2 {
+    display: flex;
+
+}
+
+#bodyleft {
+    width: 60%;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#pic3 {
+    padding-right: 200px;
+    margin-top: 150px;
+}
+
+#pic4 {
+    padding-right: 150px;
+}
+
+
+
+#bodyright {
+    width: 34%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#bodyright>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    margin-left: 140px;
+}
+
+#bodyright>p {
+    color: white;
+    font-size: 27px;
+    line-height: 2.5;
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+
+}
+
+#bodyleft>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1490px) {
+    #headbodyright {
+        width: 30%;
+        margin-top: 290px;
+    }
+
+    @media screen and (max-width: 1540px) {
+        #headbodyleft {
+            width: 55%;
+        }
+
+        #headbodyleft>p {
+            width: 105%;
+        }
+
+        #headbodyleft>h1 {
+            width: 105%;
+        }
+
+        #headbodyright {
+            width: 30%;
+
+        }
+
+        #pic1>img {
+            width: 380px;
+        }
+
+        #pic2>img {
+            width: 420px;
+        }
+    }
+
+    @media screen and (max-width: 1360px) {
+        #headbodyleft {
+            width: 55%;
+        }
+
+        #headbodyleft>h1 {
+            margin-left: 20px;
+        }
+
+
+
+        #bodyright>h1 {
+            margin-left: 50px;
+        }
+
+        #pic1>img {
+            width: 480px;
+        }
+
+        #pic2>img {
+            width: 520px;
+        }
+
+
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        body,
+        html {
+            overflow-x: hidden;
+        }
+
+        #headbodyleft {
+            width: 80%;
+        }
+
+        #headbodyleft {
+            width: 50%;
+            margin-top: 20px;
+            margin-left: 0;
+        }
+
+        #headbodyleft>h1 {
+            font-size: 46px;
+
+            width: 150%;
+        }
+
+        #headbodyleft>p {
+            font-size: 18px;
+            width: 150%;
+        }
+
+        #headbodyright {
+            width: 50%;
+            margin-top: 100px;
+            margin-left: -100px;
+
+        }
+
+        #pic1>img {
+            width: 180px;
+        }
+
+        #pic2>img {
+            width: 220px;
+        }
+
+
+
+
+        #bodyleft {
+            width: 60%;
+            margin-top: 40px;
+
+        }
+
+
+        #pic3>img {
+            width: 180px;
+        }
+
+
+        #pic4>img {
+            width: 240px;
+        }
+
+        #bodyright {
+            width: 40%;
+            margin-top: 20px;
+            margin-left: 0;
+
+        }
+
+        #bodyright>h1 {
+            font-size: 46px;
+            margin-left: 45px;
+
+
+        }
+
+        #bodyright>p {
+            font-size: 18px;
+            width: 100%;
+
+
+        }
+
+
+
+    }
+
+
+    @media screen and (max-width: 900px) {
+        #bodyright>p {
+            margin-left: -90px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        #bodyright>p {
+            margin-left: -70px;
+        }
+    }
+
+
+    @media screen and (max-width: 700px) {
+        #bodyright>p {
+            margin-left: -50px;
+        }
+    }
+
+
+    @media screen and (max-width: 600px) {
+
+        #headbody,
+        #headbody2 {
+            display: block;
+            padding: 50px;
+        }
+
+        #headbody2 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        #headbodyleft,
+        #headbodyright {
+            width: 100%;
+
+        }
+
+        #headbodyleft {
+            margin-right: 100px;
+
+        }
+
+        #headbodyleft>h1 {
+            margin-left: -127px;
+        }
+
+        #headbodyleft>p {
+            margin-left: 10px;
+            width: 98%;
+
+        }
+
+
+        #headbodyright {
+            display: flex;
+            padding-left: 160px;
+        }
+
+
+        #bodyright {
+            width: 85%;
+            margin-left: -60px;
+        }
+
+        #bodyright>h1 {
+            margin-left: 250px;
+
+        }
+
+        #bodyright>p {
+            width: 100%;
+            margin-left: 100px;
+        }
+
+        #bodyleft {
+            margin-left: 10px;
+            display: flex;
+
+        }
+
+        #pic3 {
+            width: 130px;
+        }
+
+        #pic4 {
+            width: 175px;
+            padding-top: 130px;
+        }
+    }
+
+    @media screen and (max-width: 579px) {
+        #headbodyright {
+            padding-left: 150px;
+        }
+
+        #bodyleft {
+            margin-left: -7px;
+
+        }
+
+
+        #headbodyleft>h1 {
+            margin-left: -114px;
+        }
+    }
+
+    @media screen and (max-width: 560px) {
+        #bodyright>h1 {
+            margin-left: 235px;
+
+        }
+    }
+
+    @media screen and (max-width: 545px) {
+        #bodyleft {
+            margin-left: -15px;
+
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+        #bodyleft {
+            margin-left: -30px;
+
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #headbodyright {
+            padding-left: 110px;
+        }
+
+        #bodyleft {
+            margin-left: -30px;
+
+        }
+
+        #bodyright>h1 {
+            margin-left: 215px;
+
+        }
+
+        #headbodyleft>h1 {
+            margin-left: -99px;
+        }
+
+        #pic3 {
+            width: 110px;
+        }
+
+        #pic4 {
+            width: 155px;
+
+        }
+    }

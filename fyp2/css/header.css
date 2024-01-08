@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    padding-left: 75px;
+    padding-top: 10px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+#header a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav {
+    margin-right: 75px;
+}
+
+#header a:hover {
+    background-color: #ffffff;
+    color: #0a87ce;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.buttonham {
+    font-size: 17px;
+    padding: 16px 5px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#hamburger {
+    display: none;
+    align-items: center;
+}
+
+
+#footer {
+    display: flex;
+    padding: 50px;
+}
+
+#footerleft h2 {
+    color: white;
+    font-size: 42px;
+}
+
+
+#footerleft p {
+    color: white;
+    font-size: 28px;
+}
+
+#contact a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    display: block;
+    line-height: 80px;
+}
+
+#contact {
+    margin-top: 80px;
+
+}
+
+#container {
+    background-color: #d71313d2;
+    text-align: center;
+}
+
+#container2 {
+    background-color: #31c6d4;
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #hamburger {
+        display: block;
+        z-index: 1;
+        color: white;
+    }
+
+    #menu {
+        display: none;
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #menu>div {
+        margin-top: 30px;
+    }
+
+    #menu.responsive {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0px;
+        height: 100%;
+        z-index: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttonham {
+        margin-bottom: -15px;
+    }
+
+    #contact a {
+        font-size: 22px;
+    }
+
+    #contact p {
+        font-size: 24px;
+    }
+
+
+}
